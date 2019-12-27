@@ -1,3 +1,9 @@
 {
-  "users": []
+  "users": [
+    {
+      "username": "123@qq.com",
+      "password": "$2a$10$nduMclnghEKwqfZXwgP.WeWT1o03qJV13iFaX2UezqQwIXgZST8/O",
+      "id": 1
+    }
+  ]
 }
