@@ -7,7 +7,7 @@ const middlewares = jsonServer.defaults()
 
 const server = jsonServer.create()
 
-// json-server 假数据
+// json-server 数据
 server.use(middlewares)
 server.use(routes)
 
