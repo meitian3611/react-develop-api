@@ -14,8 +14,25 @@ const server = express()
 server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
 
-// 自己写接口
+// 解决跨域问题
+server.use((req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "*")
+  next()
+})
 
+// 延迟处理
+const timer = (time = 500) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve()
+    }, time)
+  })
+}
+server.use(async (req, res, next) => {
+  await timer()
+  next()
+})
+// 自己写接口
 //注册功能
 server.post("/sign-up", async (req, res) => {
   // 获取前端传递过来的 username password gender
@@ -70,10 +87,10 @@ server.post("/sign-in", async (req, res) => {
       msg: "登录成功",
       data: user
     })
-  }else{
+  } else {
     res.send({
       code: -1,
-      msg: '用户名或密码错误'
+      msg: "用户名或密码错误"
     })
   }
 })

@@ -1,9 +1,16 @@
 {
   "users": [
     {
-      "username": "123@qq.com",
-      "password": "$2a$10$nduMclnghEKwqfZXwgP.WeWT1o03qJV13iFaX2UezqQwIXgZST8/O",
+      "username": "meitian3611@163.com",
+      "password": "$2a$10$L/RjVJHaxxPJmvestyVGi.PL.y9Pk4N2fxdi24HOhhJV3vE3LTnkW",
+      "gender": 1,
       "id": 1
+    },
+    {
+      "username": "123456789@163.com",
+      "password": "$2a$10$Kl2PWrLpXEfE.ZCJkzh0i.ou3gnBmCwHWDmq.a2EMK3fP3uIN.W.q",
+      "gender": 2,
+      "id": 2
     }
   ]
 }
