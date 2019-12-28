@@ -80,7 +80,6 @@ server.post("/sign-in", async (req, res) => {
 
   const user = data[0]
   const isOk = await bcryptjs.compare(password, user.password)
-
   if (isOk) {
     res.send({
       code: 0,
