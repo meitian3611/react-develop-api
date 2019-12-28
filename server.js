@@ -50,8 +50,7 @@ server.post("/sign-up", async (req, res) => {
     return
   }
   const { data } = await Axios.post("/users", {
-    ...req.body,
-    password: await bcryptjs.hash(req.body.password, 10)
+    ...req.body
   })
   res.send({
     code: 0,
@@ -79,7 +78,9 @@ server.post("/sign-in", async (req, res) => {
   }
 
   const user = data[0]
-  const isOk = await bcryptjs.compare(password, user.password)
+  let isOk = ""
+  password === user.password ? (isOk = true) : (isOk = false)
+  console.log(isOk)
   if (isOk) {
     res.send({
       code: 0,
