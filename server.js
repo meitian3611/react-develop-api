@@ -21,7 +21,7 @@ server.use((req, res, next) => {
 })
 
 // 延迟处理
-const timer = (time = 500) => {
+const timer = (time = 200) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve()
