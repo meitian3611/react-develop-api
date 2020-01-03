@@ -6,6 +6,10 @@ const Axios = require("axios")
 const routes = jsonServer.router("./db.json")
 const middlewares = jsonServer.defaults()
 
+// 上线使用
+// Axios.defaults.baseURL = "http://111.230.185.20:9090"
+
+// 本地使用
 Axios.defaults.baseURL = "http://localhost:9090"
 
 const server = express()

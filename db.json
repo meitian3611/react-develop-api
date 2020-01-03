@@ -13,30 +13,6 @@
       "id": 3
     },
     {
-      "username": "123456@uyg.lk",
-      "password": "544554656",
-      "gender": 1,
-      "id": 4
-    },
-    {
-      "username": "123@qq.com",
-      "password": "21313@53",
-      "gender": 2,
-      "id": 5
-    },
-    {
-      "username": "asdsad@545.asd",
-      "password": "asdasd",
-      "gender": 1,
-      "id": 6
-    },
-    {
-      "username": "6532@6.ca",
-      "password": "651321",
-      "gender": 2,
-      "id": 7
-    },
-    {
       "username": "31@3612.com",
       "password": "asdas5334",
       "gender": 2,
@@ -137,6 +113,42 @@
       "password": "54111111",
       "gender": 1,
       "id": 26
+    },
+    {
+      "username": "admin@ddd.com",
+      "password": "147896325",
+      "gender": 2,
+      "id": 27
+    },
+    {
+      "username": "asdsad@355.cn",
+      "password": "5555544",
+      "gender": 1,
+      "id": 28
+    },
+    {
+      "username": "aasdasd@555.com",
+      "password": "4562622",
+      "gender": 1,
+      "id": 29
+    },
+    {
+      "username": "sadsadas@5455.com",
+      "password": "44455454",
+      "gender": 1,
+      "id": 30
+    },
+    {
+      "username": "3132123@65113.com",
+      "password": "65153222",
+      "gender": 1,
+      "id": 31
+    },
+    {
+      "username": "531@632.com",
+      "password": "88888888",
+      "gender": 1,
+      "id": 32
     }
   ]
 }
